@@ -1,5 +1,0 @@
-- 👋 Hi, I’m @AnukulNandi
-- 👀 I’m interested in ... Programing
-- 🌱 I’m currently learning ... java language
-- 💞️ I’m looking to collaborate on ... Web design
-- 📫 How to reach me ...
