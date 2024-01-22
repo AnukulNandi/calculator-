@@ -1,0 +1,70 @@
+
+h2{background-color:green;
+    color:white;
+    border-radius:8px;
+    text-align:center;
+    margin-top:30px;
+    }
+    body{background-image:url('recha.jpg');
+    background-size:100% 100%;
+    background-repeat:norepeat;
+    }
+    .auto{text-align:center;
+    margin-top:200px;
+    border:3px solid #cde2c6;
+    width:360px;
+   
+    
+    border-radius:10px;
+    }
+    .auto {
+    background-color:#dc78dd7d;
+        margin-top: 200px;
+    margin-left:250px;
+    padding:30px 0px 25px 0px;
+    
+    }
+    
+    input[type="button"]:hover{
+    background-color:#c25f3b;
+    }
+    
+    input[type="button"]{
+    cursor:pointer;
+    width:70px;
+    font-size:25px;
+    background-color:brown;
+    padding-left:30px;
+    margin-top:3px;
+    margin-left:4px;
+    box-shadow: 10px 10px 100px  5px gray;
+    border-radius:10px;}
+    
+    input[type="text"]
+    {font-size:25px;
+    height:70px;
+    width: 270px;
+    margin-top:7px;
+    margin-left:0px;
+    border-radius:8px;
+    color: #c25f3b;
+    box-shadow: -10px -10px 100px  5px gray;
+    }
+#a{
+    background-color: #58d2e2;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+tr{
+    margin-left: 25;
+}
+#cut{
+   width: 100%;
+   background-color:#008000a1;
+   border-radius:15px;
+
+}
+  
