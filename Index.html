@@ -1,1 +1,57 @@
-<p> wellcome to my calculator </p>
+<html>
+<head>
+<title>calculator</title>
+<link rel="stylesheet" href="index.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="index.js"> </script>
+</head>
+<body>
+<script>
+</script>
+<h2>MY CALCULTER</h2>
+<div class="auto">
+
+<input type="text" id="screen">
+<div id="a">
+<table>
+<tr>
+<td><input type="button"value='(' onClick="view('(')"/></td>
+<td><input type="button"value=')' onClick="view(')')"/></td>
+<td><input type="button"value='C' onClick="clr('')"/></td>
+<td><input type="button"value='%'onClick="view('%')"/></td>
+</tr>
+<tr>
+<td><input type="button"value='7' onClick="view('7')"/></td>
+<td><input type="button"value='8' onClick="view('8')"/></td>
+<td><input type="button"value='9' onClick="view('9')"/></td>
+<td><input type="button"value='x' onClick="view('*')"/></td>
+</tr>
+<tr>
+<td><input type="button"value='4' onClick="view('4')"/></td>
+<td><input type="button"value='5' onClick="view('5')"/></td>
+<td><input type="button"value='6' onClick="view('6')"/></td>
+<td><input type="button"value='-' onClick="view('-')"/></td>
+</tr>
+<tr>
+<td><input type="button"value='1' onClick="view('1')"/></td>
+<td><input type="button"value='2' onClick="view('2')"/></td>
+<td><input type="button"value='3' onClick="view('3')"/></td>
+<td><input type="button"value='+' onClick="view('+')"/></td>
+</tr>
+<tr>
+<td><input type="button"value='0' onClick="view('0')"/></td>
+<td><input type="button"value='.' onClick="view('.')"/></td>
+<td><input type="button"value='/' onClick="view('/')"/></td>
+<td><input type="button"value='=' onClick="compu()"/></td>
+</tr>
+<tr>
+    <td colspan="4"><button id="cut" onclick="Cut();">
+        <i class="fa fa-times-rectangle-o" style="font-size:25px;color:#ff0000d4;">CUT</i>
+    </button></td>
+</tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>
